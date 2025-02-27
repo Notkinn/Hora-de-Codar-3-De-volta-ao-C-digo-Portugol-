@@ -8,7 +8,7 @@ programa {
     escreva("Informe um número para saber sua tabuada completa: ")
     leia(numero)
 
-    enquanto(contador >= 0 e contador <10){
+    enquanto(contador >= 0 e contador < numero){
       contador = contador + 1
       resultado =numero*contador
       escreva("\n",numero, "x", contador ,": " , resultado)
